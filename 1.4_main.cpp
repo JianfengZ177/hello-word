@@ -4,24 +4,24 @@ using namespace std;
 
 class Student{
 public:
-    //Àà°üº¬µÄ±äÁ¿
+    //ç±»åŒ…å«çš„å˜é‡
     string name;
     int age;
     float score;
-    //Àà°üº¬µÄº¯Êı
+    //ç±»åŒ…å«çš„å‡½æ•°
     void say(){
-    	cout << name<<"µÄÄêÁäÊÇ"<<age<<",³É¼¨ÊÇ"<<score << endl;
+    	cout << name<<"çš„å¹´é¾„æ˜¯"<<age<<",æˆç»©æ˜¯"<<score << endl;
     }
 };
 
 int main(){
-    //Í¨¹ıÀàÀ´¶¨Òå±äÁ¿£¬¼´´´½¨¶ÔÏó
-    class Student stu1;  //Ò²¿ÉÒÔÊ¡ÂÔ¹Ø¼ü×Öclass
-    //ÎªÀàµÄ³ÉÔ±±äÁ¿¸³Öµ
-    stu1.name = "ÃÀ¶í";
+    //é€šè¿‡ç±»æ¥å®šä¹‰å˜é‡ï¼Œå³åˆ›å»ºå¯¹è±¡
+    class Student stu1;  //ä¹Ÿå¯ä»¥çœç•¥å…³é”®å­—class
+    //ä¸ºç±»çš„æˆå‘˜å˜é‡èµ‹å€¼
+    stu1.name = "ç¾ä¿„";
     stu1.age = 15;
     stu1.score = 92.5f;
-    //µ÷ÓÃÀàµÄ³ÉÔ±º¯Êı
+    //è°ƒç”¨ç±»çš„æˆå‘˜å‡½æ•°
     stu1.say();
     return 0;
 }
