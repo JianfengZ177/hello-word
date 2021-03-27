@@ -18,7 +18,7 @@ int main(){
     //通过类来定义变量，即创建对象
     class Student stu1;  //也可以省略关键字class
     //为类的成员变量赋值
-    stu1.name = "美俄";
+    stu1.name = "嚣张";
     stu1.age = 15;
     stu1.score = 92.5f;
     //调用类的成员函数
